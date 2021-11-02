@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Trabalho de pintura",
+      "url": "https://i.ibb.co/KNqMjWF/tim-mossholder-tq8-Cuap8-w-Y-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "title": "Cake de Páscoa",
+      "url": "https://i.ibb.co/JBD5MGW/tengyart-u-8-Nyng8qe-A-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 40
+    },
+    {
+      "id": 3,
+      "title": "Art figure de PVC",
+      "url": "https://i.ibb.co/RQ6C2rx/ryan-yao-VURw-Pt-Zqy-F4-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 20.5
+    },
+    {
+      "id": 4,
+      "title": "Trabalho de pintura",
+      "url": "https://i.ibb.co/KNqMjWF/tim-mossholder-tq8-Cuap8-w-Y-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 13.09
+    },
+    {
+      "id": 5,
+      "title": "Cake de Páscoa",
+      "url": "https://i.ibb.co/JBD5MGW/tengyart-u-8-Nyng8qe-A-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 50
+    },
+    {
+      "id": 6,
+      "title": "Art figure de PVC",
+      "url": "https://i.ibb.co/RQ6C2rx/ryan-yao-VURw-Pt-Zqy-F4-unsplash.jpg",
+      "text": "Olá, gostaria de receber o item trabalho de pintura!",
+      "price": 50
+    }
+  ]
+}

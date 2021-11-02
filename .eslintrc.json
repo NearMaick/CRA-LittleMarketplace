@@ -31,6 +31,7 @@
     "rules": {
         "space-before-function-paren": "off",
         "comma-dangle": "off",
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "no-unused-vars":"warn"
     }
 }
