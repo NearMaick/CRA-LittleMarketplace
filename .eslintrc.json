@@ -30,6 +30,7 @@
     "plugins": ["react", "@typescript-eslint", "prettier"],
     "rules": {
         "space-before-function-paren": "off",
+        "comma-dangle": "off",
         "prettier/prettier": "error"
     }
 }

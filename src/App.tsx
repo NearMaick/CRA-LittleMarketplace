@@ -1,8 +1,11 @@
+import { ChakraProvider, theme } from '@chakra-ui/react'
+import { Header } from './components/Header'
+
 function App() {
   return (
-    <div>
-      <h1>Maick Souza</h1>
-    </div>
+    <ChakraProvider theme={theme}>
+      <Header />
+    </ChakraProvider>
   )
 }
 
