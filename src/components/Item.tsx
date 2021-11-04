@@ -1,4 +1,5 @@
-import { Button, Text, Box, Image, Center, Link } from '@chakra-ui/react'
+import { Button, Text, Box, Image, Center } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 
 type ItemProps = {
   id: string
@@ -31,7 +32,7 @@ export function Item({ title, url, price, id }: ItemProps) {
       <Text mt="4">{title}</Text>
       <Text>{priceConverted}</Text>
 
-      <Link href={`/product/${id}`}>
+      <Link to={`/product/${id}`}>
         <Button mt="6" colorScheme="green" size="lg">
           Comprar
         </Button>

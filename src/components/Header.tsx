@@ -1,4 +1,5 @@
 import { Heading, Flex } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import { ColorModeSwitcher } from './ColorModeSwitcher'
 
 export function Header() {
@@ -20,7 +21,7 @@ export function Header() {
         fontWeight="bold"
         letterSpacing="tight"
       >
-        Nildinha Personalizados
+        <Link to="/">Nildinha Personalizados</Link>
       </Heading>
       <ColorModeSwitcher />
     </Flex>
