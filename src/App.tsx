@@ -1,14 +1,15 @@
 import { ChakraProvider, theme } from '@chakra-ui/react'
-import { Header } from './components/Header'
-import { ShopWindow } from './components/ShopWindow'
+import { BrowserRouter } from 'react-router-dom'
 import { ProductsProvider } from './contexts/ProductsContext'
+import { Routes } from './routes'
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <ProductsProvider>
-        <Header />
-        <ShopWindow />
+        <BrowserRouter>
+          <Routes />
+        </BrowserRouter>
       </ProductsProvider>
     </ChakraProvider>
   )
